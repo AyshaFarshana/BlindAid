@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Blind Aid</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="titleBar">
+
+    <div class="titleMain">
+        👁 Blind Aid Vision System
+    </div>
+
+    <div class="titleSub">
+        AI Assistive Navigation System
+    </div>
+
+</div>
+
+<div class="container">
+
+    <div class="video-box">
+        <img src="/video">
+    </div>
+
+    <div class="controls">
+
+        <button onclick="roadMode()">Road Mode</button>
+
+        <button onclick="marketMode()">Market Mode</button>
+
+        <input id="target" placeholder="Enter object">
+
+        <button onclick="searchObject()">Find Object</button>
+
+        <div id="statusBox">
+        <div id="stateBox">Ready</div>
+            System ready
+
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+
+</html>

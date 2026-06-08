@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #00eaff;
+    text-shadow: 0 0 10px #00eaff;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.video-box {
+    display: inline-block;
+    border: 4px solid #00eaff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #00eaff;
+}
+
+.video-box img {
+    width: 640px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    background: #00eaff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00bcd4;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    margin: 5px;
+}
+#statusBox {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #00ffcc;
+    font-weight: bold;
+}
+#stateBox {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ffaa;
+}
+.titleBar {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.titleMain {
+    font-size: 34px;
+    font-weight: bold;
+    color: #00eaff;
+    text-shadow: 0 0 10px #00eaff;
+}
+
+.titleSub {
+    font-size: 16px;
+    color: #a0ffff;
+    margin-top: 5px;
+}
