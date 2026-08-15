@@ -1,4 +1,6 @@
 # BlindAid
+
+**BlindAid Video Demonstartion:** https://drive.google.com/file/d/1M08rQ0on-cPAfXxGeOUcVfCFtAyiEt51/view?usp=sharing 
 Blind Aid is an intelligent assistive application designed to help visually impaired individuals understand and interact with their surroundings. The system combines Artificial Intelligence, Computer Vision, Optical Character Recognition (OCR), and Voice Assistance to provide real-time environmental awareness and guidance.
 
 The application captures live video through a webcam, detects surrounding objects, reads printed text, and provides audio feedback to the user.
